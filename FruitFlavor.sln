@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-WebApi", "FruitFlavor\1-WebApi.csproj", "{1C98F7AC-212B-4755-A331-18CDC2F59A9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1-WebApi", "FruitFlavor\1-WebApi.csproj", "{1C98F7AC-212B-4755-A331-18CDC2F59A9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra", "FruitFlavor.Core\Infra.csproj", "{D77F76B6-FA29-4189-BBF7-98AB1E7F986C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infra", "FruitFlavor.Core\Infra.csproj", "{D77F76B6-FA29-4189-BBF7-98AB1E7F986C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "FruitFlavor.Data\Domain.csproj", "{3148C57B-75D1-46E9-B134-178A0B28D25F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "FruitFlavor.Data\Domain.csproj", "{3148C57B-75D1-46E9-B134-178A0B28D25F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{A7D2F575-58C5-483F-B69A-350F335E9248}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{A7D2F575-58C5-483F-B69A-350F335E9248}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

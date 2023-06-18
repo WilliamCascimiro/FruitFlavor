@@ -10,6 +10,6 @@ namespace Entities.Models
 {
     public class ApplicationUser : IdentityUser
     {
-        public required string Email { get; set; }
+        public required int Telefone { get; set; }
     }
 }

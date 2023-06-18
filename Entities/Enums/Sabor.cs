@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace Entities.Enums
 {
-    internal enum PerfilUsuario
+    public enum Sabor
     {
-        Admin = 1,
-        Funcionario=2,
-        User = 3,
+        Acai,
+        Chocolate,
     }
 }

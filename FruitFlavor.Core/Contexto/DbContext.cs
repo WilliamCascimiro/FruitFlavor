@@ -1,21 +1,19 @@
 ﻿using Entities.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-
+using System.Reflection.Emit;
 
 namespace Infra.Contexto
 {
-    public class DbContext : IdentityDbContext<ApplicationUser>
+    public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
-        public DbContext(DbContextOptions options) : base(options)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
         }
 
-        public DbSet<ProdutoModel> Produto { set; get; }
-        public DbSet<PedidoModel> Pedido { set; get; }
-        public DbSet<Produto_Pedido> ProdutoPedido { set; get; }
-        
-
+        public DbSet<Produto> Produto { get; set; }
+        public DbSet<Pedido> Pedido { get; set; }
+        public DbSet<Produto_Pedido> ProdutoPedido { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -23,6 +21,6 @@ namespace Infra.Contexto
 
             base.OnModelCreating(builder);
         }
-
     }
 }
+
